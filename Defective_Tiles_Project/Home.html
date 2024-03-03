@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Style/HomeStyle.css" rel="stylesheet">
+    <link href="Style/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--    //-------------NAVIGATION BAR--------------//   -->
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <span class="text-muted">
+                <img src="Images/logo.png" class="logo">
+                <a class="nav-link active" id = "actualPage" aria-current="page" href="#">Home</a>
+                <a class="nav-link active"  aria-current="page" href="http://localhost/IperSito/ScritturaSuDB/ScritturaSuDB.php">Inserisci</a>
+                <a class="nav-link active" aria-current="page" href="http://localhost/IperSito/Pag_TabellaDB/Tabella.php">SQL</a>
+            </span>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" id="menuButton">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <h3 class="HomeTitle">Home Prova Ricerca</h3>
+        </div>
+    </nav>
+    <!--    //-----------------------------------------//   -->
+
+    <!--    //-----------------WRAPPER-----------------//   -->
+    <div class="homeWrapper">
+
+        <h1>Sito di Prova</h1>
+        <hr>
+        <p> Questa è la versione definitiva per la prova di ricerca di pezzi dal server remoto con hosting su VM.
+        </p>
+        <hr>
+        <p>
+            <b>Server:</b> PC-TEST\SQL_PROVA<br> <b>Database:</b> DatabaseSito<br><b>Table</b>: elements<br><b>User</b>: SA<br>
+            <b>Ip host:</b> 192.168.9.102
+        </p>
+        <hr>
+        <p>
+            Dalla Pagina 'Inserisci' è possibile inserire nuovi dati all'interno della tabella SQL 'Elements', mentre dalla pagina 'SQL' è possibile visualizzare l'intera tabella SQL
+        </p>
+        <hr>
+
+        <BR>
+
+        <h1>
+            <a CLASS="linkRicerca" href="http://localhost/IperSito/ScritturaSuDB/ScritturaSuDB.php">VAI A RICERCA!</a></h1>
+
+        <br>
+        <hr>
+
+
+    </div>
+    <!--    //------------FINE WRAPPER----------------//   -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4 " crossorigin="anonymous "></script>
+</body>
+
+
+</html>
